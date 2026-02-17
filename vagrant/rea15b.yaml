@@ -1,0 +1,5 @@
+# terraform/main.tf
+resource "aws_instance" "web" {{
+    ami           = "ami-57ec48d6"
+    instance_type = "t2.micro"
+}}
